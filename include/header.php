@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="assets/contents/css/index.css">
   <link rel="stylesheet" href="assets/contents/css/serve.css">
   <link rel="stylesheet" href="assets/contents/css/style.css">
+  <link rel="stylesheet" href="assets/contents/css/media-query.css">
 
 </head>
 <body>

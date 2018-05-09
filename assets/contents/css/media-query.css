@@ -1,0 +1,132 @@
+@media only screen and (max-width: 1200px) {
+	footer .footer-flex .footer-flex-content:last-child #map iframe{
+		width: 100%;
+		height: 80vh;
+	}
+	footer .footer-flex .footer-flex-content:first-child{
+		padding-left: 5%;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact{
+	    margin: 45px 38px;	
+	}
+}
+@media only screen and (max-width: 992px) {
+	footer .footer-flex .footer-flex-content:last-child #map iframe{
+		width: 100%;
+		height: 70vh;
+	}
+	footer .footer-flex .footer-flex-content:first-child{
+		padding: 0 2%;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact{
+	    margin: 40px 26px;	
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center img{
+		width: 80%;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex .contact-flex-inner:first-child{
+	    flex-basis: 23%;	
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center{
+	    margin: 0 42px;	
+	}
+}
+@media only screen and (max-width: 768px) {
+	footer .footer-flex .footer-flex-content:last-child #map iframe{
+		width: 100%;
+		height: 60vh;
+	}
+	footer .footer-flex .footer-flex-content:first-child{
+		padding: 0 2%;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center{
+	    margin: 0 5px;	
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex .contact-flex-inner h5{
+	    margin-bottom: 8px;
+	    font-size: 12px;    	
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact {
+	    margin: 20px 15px;
+	}
+	footer .footer-flex .footer-flex-content:first-child .footer-message .form-flex:last-child .form-group{
+		text-align: center;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex .contact-flex-inner:first-child {
+	    flex-basis: 6%;
+	}
+	footer .footer-flex .footer-flex-content:last-child{
+		padding: 8% 2%;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 600px) {
+	footer .footer-flex{
+	    flex-direction: column;	
+	}
+	footer .footer-flex .footer-flex-content:first-child {
+	    padding: 0 8%;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact {
+	    margin: 20px 30px;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center img{
+		width: 50%;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex{
+		margin: 0 50px 15px;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex .contact-flex-inner:first-child {
+	    flex-basis: 55%;
+	}
+	footer .footer-flex .footer-flex-content:first-child{
+		margin-top: 0;
+	}
+	footer .footer-flex .footer-flex-content:last-child{
+		margin-top: 0;
+		padding: 2% 2%;
+	}
+	footer .footer-flex .footer-flex-content:last-child #map iframe {
+	    height: 80vh;
+	}
+}
+@media only screen and (max-width: 600px) {
+	footer .footer-flex{
+	    flex-direction: column;	
+	}
+	footer .footer-flex .footer-flex-content:first-child {
+	    padding: 0 8%;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact {
+	    margin: 20px 30px;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center img{
+		width: 50%;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex{
+		margin: 0 50px 15px;
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex .contact-flex-inner:first-child {
+	    flex-basis: 55%;
+	}
+	footer .footer-flex .footer-flex-content:first-child{
+		margin-top: 0;
+	}
+	footer .footer-flex .footer-flex-content:last-child{
+		margin-top: 0;
+		padding: 2% 2%;
+	}
+	footer .footer-flex .footer-flex-content:last-child #map iframe {
+	    height: 80vh;
+	}
+}
+@media only screen and (max-width: 450px) {
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex .contact-flex-inner:first-child{
+	    flex-basis: 32%;	
+	}
+	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex {
+	    margin: 0 45px 15px;
+	}
+	footer .footer-flex .footer-flex-content:last-child #map iframe {
+	    height: 80vh;
+	}
+}

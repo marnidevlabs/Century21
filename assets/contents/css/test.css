@@ -29,11 +29,12 @@
 padding: 25px 50px 50px;
 }
 #banner .overlay .container .flex-container{
-display:flex;
+  display:flex;
 }
 #banner .overlay .container .flex-container .flex-inner{
 	flex:1;
 	padding:2px;
+  border-radius: 25px;
 }
 #banner .overlay  .carousel .carousel-inner .flex-container .flex-inner img{
 	border:5px solid white;
