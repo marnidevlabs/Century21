@@ -19,16 +19,6 @@
 	margin-top:10px;
 	text-align:center;
 }
-#serve .container .row .zoom img:hover{
-	transform: scale(1.5);
-}
-#serve .container .row .col-md-3 .contents .ip:hover{
-text-decoration:underline;
-color:blue;
-}
-#serve .container .row .col-md-3 .contents .me:hover{
-background-color:yellow;
-}
 @media only screen and (max-width: 600px) {
     #serve .container .ser{
 	font-weight:bold;
