@@ -26,7 +26,7 @@
                                 <div class="item active">
                                   <div class="flex-container">
                                       <div class="flex-inner text-center">
-                                        <img src="assets/img/me.jpg" class="img-responsive" width="100%">
+                                        <img src="assets/contents/img/me.jpg" class="img-circle" width="50%">
                                       </div>
                                       <div class="flex-inner">
                                           <h1 class="name">J. Lamo</h1>
