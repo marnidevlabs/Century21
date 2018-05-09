@@ -67,7 +67,7 @@
       </div>
       <div class="footer-flex-content">
         <div id="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.5295146974654!2d-113.49941548467102!3d53.51259946994703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a0220614ab5a6b%3A0x1702b1689399ed93!2sCentury+21+Platinum+Realty!5e0!3m2!1sen!2sph!4v1525405873948" width="450px" height="280vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.5295146974654!2d-113.49941548467102!3d53.51259946994703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a0220614ab5a6b%3A0x1702b1689399ed93!2sCentury+21+Platinum+Realty!5e0!3m2!1sen!2sph!4v1525405873948" width="100%" height="280vh" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
     </div>

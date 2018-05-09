@@ -73,7 +73,7 @@ footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-f
 	text-indent: 15px;
 }
 footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center .fa-vimeo{
-	background-color: #e62b34;
+	background-color: #01bbd6;
     padding: 6px 6px;
     border-radius: 18px;
     font-size: 18px;
@@ -110,13 +110,13 @@ footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-cent
 }
 footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center .fa-google-plus{
 	background-color: #e82a34;
-    padding: 7px 5px;
+    padding: 8px 6px;
     border-radius: 18px;
-    font-size: 15px;
+    font-size: 16px;
 }
 footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center .fa-skype{
 	background-color: #35c4f1;
-    padding: 6px 8px;
+    padding: 7px 8px;
     border-radius: 18px;
-    font-size: 16px;
+    font-size: 18px;
 }

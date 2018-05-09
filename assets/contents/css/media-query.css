@@ -1,8 +1,4 @@
 @media only screen and (max-width: 1200px) {
-	footer .footer-flex .footer-flex-content:last-child #map iframe{
-		width: 100%;
-		height: 80vh;
-	}
 	footer .footer-flex .footer-flex-content:first-child{
 		padding-left: 5%;
 	}
@@ -11,10 +7,6 @@
 	}
 }
 @media only screen and (max-width: 992px) {
-	footer .footer-flex .footer-flex-content:last-child #map iframe{
-		width: 100%;
-		height: 70vh;
-	}
 	footer .footer-flex .footer-flex-content:first-child{
 		padding: 0 2%;
 	}
@@ -32,10 +24,6 @@
 	}
 }
 @media only screen and (max-width: 768px) {
-	footer .footer-flex .footer-flex-content:last-child #map iframe{
-		width: 100%;
-		height: 60vh;
-	}
 	footer .footer-flex .footer-flex-content:first-child{
 		padding: 0 2%;
 	}
@@ -47,7 +35,7 @@
 	    font-size: 12px;    	
 	}
 	footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact {
-	    margin: 20px 15px;
+	    margin: 35px 20px;
 	}
 	footer .footer-flex .footer-flex-content:first-child .footer-message .form-flex:last-child .form-group{
 		text-align: center;
