@@ -4,11 +4,11 @@ body{
 }
 @font-face{
 	font-family: Gill;
-	src:url('../font-family/GILB.TTF');
+	src:url(../fonts/GILB.TTF);
 }
 @font-face{
 	font-family: Hatten;
-	src:url('../font-family/HATTEN.TTF');
+	src:url(../fonts/HATTEN.TTF);
 }
 .gallery1{
 

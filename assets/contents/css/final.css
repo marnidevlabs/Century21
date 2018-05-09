@@ -4,10 +4,10 @@ body{
 }
 @font-face{
 	font-family: Gill;
-	src:url('../font-family/GILB.TTF');
+	src:url(../fonts/GILB.TTF);
 }
 #gallery{
-
+	margin-bottom: 100px;
 }
 #gallery .container{
 

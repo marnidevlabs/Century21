@@ -98,8 +98,76 @@
     $('#about .overlay .container .row .col-md-6 .one-time').slick('slickPrev');
   });
   </script>
-
-
+  <script type="text/javascript">
+  var $slickEl = $('.flex-parent');
+  $slickEl.slick({
+    centerMode: true,
+    centerPadding: '0',
+    slidesToShow: 3,
+    focusOnSelect: true,
+    autoplay: true,
+    autoplaySpeed: 2000,    
+      dots: false,
+    infinite: true,
+    responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+    ]
+  });
+  </script>
+  <script type="text/javascript">
+  $('.sub-parent').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  }); 
+  </script>
 
 </body>
 </html>
