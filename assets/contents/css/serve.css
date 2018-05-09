@@ -1,0 +1,41 @@
+#serve .container .ser{
+	font-weight:bold;
+	font-size:50px;
+	text-align:center;
+	padding:50px;
+	font-family:Sans-Serif;
+}
+#serve .container .row .col-md-3 .contents{
+	padding:20px;
+}
+#serve .container .row .col-md-3 .contents .ip{
+	font-weight:bold;
+	font-size:24px;
+}
+#serve .container .row .col-md-3 .contents .me{
+	font-size:18px;
+	font-weight:lighter;
+	padding:10px;
+	margin-top:10px;
+	text-align:center;
+}
+#serve .container .row .zoom img:hover{
+	transform: scale(1.5);
+}
+#serve .container .row .col-md-3 .contents .ip:hover{
+text-decoration:underline;
+color:blue;
+}
+#serve .container .row .col-md-3 .contents .me:hover{
+background-color:yellow;
+}
+@media only screen and (max-width: 600px) {
+    #serve .container .ser{
+	font-weight:bold;
+	font-size:35px;
+	text-align:center;
+	padding:50px;
+	font-family:Sans-Serif;
+	}
+
+}

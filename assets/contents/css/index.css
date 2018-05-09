@@ -1,0 +1,109 @@
+@font-face{
+	font-family:Gloucester;
+	src:url(../fonts/Gloucester.TTF);
+}
+@font-face{
+  font-family:Dosis-Book;
+  src:url(../fonts/Dosis-Book.ttf);
+}
+#about{
+	background-image: url('../images/WhoWeAre.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#about .overlay{
+	background-color:rgb(0,0,0,0.5);
+    background-position: relative;
+}
+#about .overlay .container .row .col-md-6 .one-time{
+	padding:40px;
+	margin:50px 0px 50px 0px;
+}
+#about .overlay .container .row .col-md-6 .about{
+	padding:50px;
+	margin:50px 0px 50px 0px;
+}
+#about .overlay .container .row .col-md-6 .about .tit{
+font-size:45px;
+font-weight:bold;
+color:white;
+
+}
+#about .overlay .container .row .col-md-6 .about .par{
+font-size:20px;
+color:white;
+}
+#about .overlay .container .row .col-md-6 .one-time .im1{
+border:8px solid white;
+}
+#about .overlay .container .row .grand{
+position:absolute;
+width:95%;
+bottom:100px;
+padding:15px 5px;
+background-color:#846841;
+border-radius:15px;
+opacity:0.8;
+}
+#about .overlay .container .row .parent{
+position:relative;
+padding:3px;
+}
+#about .overlay .container .row .fa-chevron-left{
+position:absolute;	
+left:0;
+color:white;
+top:-4px;
+}
+#about .overlay .container .row .fa-chevron-right{
+position:absolute;	
+right:0;
+color:white;
+top:-4px;
+}
+@media only screen and (max-width:992px){
+	#about .overlay .container .row .col-md-6 .one-time{
+		margin-top:40px;
+	}
+	#about .overlay .container .row .col-md-6 .about{
+	   margin-top:-50px;
+	}
+}
+@media only screen and (max-width:500px){
+	#about .overlay .container .row .col-md-6 .about .tit{
+	font-size:36px;
+	font-weight:bold;
+	color:white;
+	margin-top:-10px;
+	}
+	#about .overlay .container .row .col-md-6 .about .par{
+	font-size:18px;
+	color:white;
+	margin-top:-10px;
+	}
+}
+@media only screen and (max-width:400px){
+	#about .overlay .container .row .col-md-6 .about .tit{
+	font-size:24px;
+	font-weight:bold;
+	color:white;
+	margin-top:-10px;
+	}
+	#about .overlay .container .row .col-md-6 .about .par{
+	font-size:18px;
+	color:white;
+	margin-top:-10px;
+	}
+	#about .overlay .container .row .grand{
+	position:absolute;
+	width:90%;
+	bottom:100px;
+	padding:15px 5px;
+	background-color:#846841;
+	border-radius:15px;
+	opacity:0.8;
+	}
+
+}
+

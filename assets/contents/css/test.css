@@ -1,0 +1,148 @@
+@font-face{
+	font-family:Gloucester;
+	src:url(../fonts/Gloucester.TTF);
+}
+@font-face{
+  font-family:Dosis-Book;
+  src:url(../fonts/Dosis-Book.ttf);
+}
+@font-face{
+  font-family:TCCEB;
+  src:url(../fonts/TCCEB.TTF);
+}
+@font-face{
+  font-family:PT_Sans-Narrow-Web-Regular;
+  src:url(../fonts/PT_Sans-Narrow-Web-Regular.ttf
+);
+}
+#banner{
+  background-image: url('../images/Testimonials.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.overlay{
+	background-color:rgb(white,0.8);
+    background-position: relative;
+}
+#banner .overlay .container {
+padding: 25px 50px 50px;
+}
+#banner .overlay .container .flex-container{
+display:flex;
+}
+#banner .overlay .container .flex-container .flex-inner{
+	flex:1;
+	padding:2px;
+}
+#banner .overlay  .carousel .carousel-inner .flex-container .flex-inner img{
+	border:5px solid white;
+}
+#banner .overlay  .carousel .carousel-inner .flex-container .flex-inner img:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+#banner .overlay hr {
+	height:5px;
+    background-color:#878787;
+    margin-top:-5px;
+    border-top:none;
+}
+#banner .overlay .container .head .te{
+	font-weight:lighter;
+    font-family:TCCEB;
+	font-size:50px;
+	color:#212a31;
+}
+#banner .overlay .container .head .int{
+	color:#49494b;
+}
+ #banner .overlay .container .carousel .carousel-inner .name {
+ 	color:#4a4a4a;
+ 	font-weight:bold;
+ 	font-size:35px;
+ }
+ #banner .overlay .container .carousel .carousel-inner .pos {
+ 	color:#494949;
+    font-weight:lighter;
+    margin-top:-10px;
+    font-family:PT_Sans-Narrow-Web-Regular;
+
+ }
+ #banner .overlay .container .carousel .carousel-inner .info{
+ 	color:#494949;
+ 	font-family:Sans-serif;
+ }
+ #banner .overlay .container .carousel{
+ 	height:50vh;
+ }
+ #banner .overlay .container .carousel .carousel-indicators li{
+ 	background-color:black;
+ }
+ #banner .overlay .container .carousel .carousel-indicators .active{
+ 	background-color:white;
+ 	border:2px solid black;
+ }
+
+ @media only screen and (max-width:700px){
+ #banner .overlay .container .carousel .carousel-inner .name {
+  color:#4a4a4a;
+  font-weight:bold;
+  font-size:34px;
+ }
+ #banner .overlay .container .carousel .carousel-inner .pos {
+    color:#494949;
+    font-weight:lighter;
+    margin-top:-10px;
+    font-family:PT_Sans-Narrow-Web-Regular;
+    font-size:25px;
+
+ }
+ #banner .overlay .container .carousel .carousel-inner .info{
+  color:#494949;
+  font-family:Sans-serif;
+  font-size:20px;
+ }
+ #banner .overlay  .carousel .carousel-inner .flex-container .flex-inner img{
+width:75%;
+}
+ #banner .overlay .container .carousel{
+  height:60vh;
+ }
+ }
+  @media only screen and (max-width:400px){
+ #banner .overlay .container .carousel .carousel-inner .name {
+  color:#4a4a4a;
+  font-weight:bold;
+  font-size:30px;
+ }
+ #banner .overlay .container .carousel .carousel-inner .pos {
+    color:#494949;
+    font-weight:lighter;
+    margin-top:-10px;
+    font-family:PT_Sans-Narrow-Web-Regular;
+    font-size:20px;
+
+ }
+ #banner .overlay .container .carousel .carousel-inner .info{
+  color:#494949;
+  font-family:Sans-serif;
+  font-size:15px;
+ }
+ #banner .overlay  .carousel .carousel-inner .flex-container .flex-inner img{
+width:80%;
+}
+ #banner .overlay .container .carousel{
+  height:55vh;
+ }
+ #banner .overlay .container .head .te{
+  font-weight:lighter;
+    font-family:TCCEB;
+  font-size:40px;
+  color:#212a31;
+}
+#banner .overlay .container .head .int{
+  color:#49494b;
+  font-size:20px;
+}
+ }
