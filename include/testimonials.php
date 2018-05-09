@@ -26,7 +26,7 @@
                                 <div class="item active">
                                   <div class="flex-container">
                                       <div class="flex-inner text-center">
-                                        <img src="asset/contents/img/me.jpg" class="img-circle" width="50%">
+                                        <img src="assets/contents/img/me.jpg" class="img-circle" width="50%">
                                       </div>
                                       <div class="flex-inner">
                                           <h1 class="name">J. Lamo</h1>
@@ -40,7 +40,7 @@
                                 <div class="item">
                                      <div class="flex-container">
                                       <div class="flex-inner text-center">
-                                        <img src="asset/contents/img/me.jpg" class="img-circle" width="50%">
+                                        <img src="assets/contents/img/me.jpg" class="img-circle" width="50%">
                                       </div>
                                       <div class="flex-inner">
                                           <h1 class="name">J. Lamo</h1>
@@ -55,7 +55,7 @@
                                 <div class="item">
                                   <div class="flex-container">
                                     <div class="flex-inner text-center">
-                                        <img src="asset/contents/img/me.jpg" class="img-circle" width="50%">
+                                        <img src="assets/contents/img/me.jpg" class="img-circle" width="50%">
                                     </div>
                                     <div class="flex-inner">
                                           <h1 class="name">J. Lamo</h1>
@@ -69,7 +69,7 @@
                                 
                                   <div class="flex-container">
                                     <div class="flex-inner text-center">
-                                        <img src="asset/contents/img/me.jpg" class="img-circle" width="50%">
+                                        <img src="assets/contents/img/me.jpg" class="img-circle" width="50%">
                                     </div>
                                     <div class="flex-inner">
                                           <h1 class="name">J. Lamo</h1>
@@ -84,7 +84,7 @@
                                   <div class="item">
                                   <div class="flex-container">
                                     <div class="flex-inner text-center">
-                                        <img src="asset/contents/img/me.jpg" class="img-circle" width="50%">
+                                        <img src="assets/contents/img/me.jpg" class="img-circle" width="50%">
                                     </div>
                                     <div class="flex-inner">
                                           <h1 class="name">J. Lamo</h1>

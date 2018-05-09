@@ -5,9 +5,9 @@
               <div class="row">
                 <div class="col-md-6">
                     <div class="one-time">
-                          <div  class="im1" style="background-image:url('asset/contents/img/16.jpg');height:50vh;background-size:cover" ></div>
-                          <div  class="im1" style="background-image:url('asset/contents/img/16.jpg');height:50vh;background-size:cover" ></div>
-                          <div  class="im1" style="background-image:url('asset/contents/img/16.jpg');height:50vh;background-size:cover" ></div>
+                          <div  class="im1" style="background-image:url('assets/contents/img/16.jpg');height:50vh;background-size:cover" ></div>
+                          <div  class="im1" style="background-image:url('assets/contents/img/16.jpg');height:50vh;background-size:cover" ></div>
+                          <div  class="im1" style="background-image:url('assets/contents/img/16.jpg');height:50vh;background-size:cover" ></div>
                     </div>
                     <div class="grand">
                       <div class="parent">

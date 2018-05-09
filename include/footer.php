@@ -1,7 +1,7 @@
-  <script src="asset/plugins/jquery/jquery.min.js"></script>
-  <script src="asset/plugins/js/bootstrap.min.js"></script>
-  <script src="asset/plugins/slick/slick/slick.min.js"></script>
-  <script src="asset/plugins/slick/slick/slick.js"></script>
+  <script src="assets/plugins/jquery/jquery.min.js"></script>
+  <script src="assets/plugins/js/bootstrap.min.js"></script>
+  <script src="assets/plugins/slick/slick/slick.min.js"></script>
+  <script src="assets/plugins/slick/slick/slick.js"></script>
 
   <script type="text/javascript">
   $('.one-time').slick({
