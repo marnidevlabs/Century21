@@ -1,0 +1,202 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: Gill;
+	src:url(../fonts/GILB.TTF);
+}
+@font-face{
+	font-family: Hatten;
+	src:url(../fonts/HATTEN.TTF);
+}
+.gallery1{
+
+}
+.gallery1 .container{
+	margin: 0 auto;
+}
+.gallery1 .container .flex-parent1{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.gallery1 .container .flex-parent1 .flex1{
+	text-align: center;
+}
+.gallery1 .container .flex-parent1 .flex1 .guide{
+	font-family: Gill;
+	font-size: 1.5em;
+}
+.gallery1 .container .flex-parent1 .flex1 .agent{
+	font-family: Hatten;
+	font-size: 4.0em;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent{
+	border:10px solid #000;
+	margin-top: 50px;
+	color: black;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+	position: relative;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2 .tnega{
+	position: absolute;
+	bottom: -90px;
+	font-family: Gill;
+	font-size: 2.0em;
+	margin-left: 20%;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2 .real{
+	clear: both;
+	font-family: Gill;
+	font-size: 0.75em;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2[aria-hidden='true']{
+	visibility: hidden;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2 .flex3{
+	display: none;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top:-10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	border:10px solid #fff;
+	z-index: 999;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3{
+	display: block;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .view{
+	position: absolute;
+	bottom: 10%;
+	margin-left: 160px;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .view p{
+	background-color: #000;
+	color: #fff;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	padding: 5px 20px;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .des{
+	position: absolute;
+	bottom: -16%;
+	background-color: white;
+	width: 105%;
+	height: 80px;
+	left: -3%;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .des h4{
+	font-family: Gill;
+	font-size: 1.6em;
+	margin-left: 15px;
+	font-weight: bolder;
+	color: black;
+	text-align: left;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .des p{
+	font-family: Gill;
+	font-size: 1.5em;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-weight: bolder;
+	color: black;
+	text-align: left;
+	padding-bottom: 10px;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .des .glyphicon{
+	float: right;
+}
+.gallery1 .container .flex-parent1 .flex1 .sub-parent .slick-list{
+	overflow: visible;
+}
+@media screen and (max-width: 945px){
+	.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .view{
+		position: absolute;
+		bottom: 10%;
+	}
+	.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .view p{
+		background-color: #000;
+		color: #fff;
+		border-radius: 20px;
+		width: 100%;
+		height: 100%;
+		padding: 5px 20px;
+	}
+}
+@media screen and (max-width: 600px){
+	.gallery1 .container .flex-parent1 .flex1 .guide{
+		font-family: Gill;
+		font-size: 1.5em;
+	}
+	.gallery1 .container .flex-parent1 .flex1 .agent{
+		font-family: Hatten;
+		font-size: 3.5em;
+	}
+	.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .view{
+		position: absolute;
+		bottom: 10%;
+		margin-left: 150px;
+	}
+	.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .view p{
+		background-color: #000;
+		color: #fff;
+		border-radius: 20px;
+		width: 100%;
+		height: 100%;
+		padding: 5px 20px;
+	}
+}
+@media screen and (max-width: 435px){
+	.gallery1 .container .flex-parent1 .flex1 .guide{
+		font-family: Gill;
+		font-size: 1.25em;
+	}
+	.gallery1 .container .flex-parent1 .flex1 .agent{
+		font-family: Hatten;
+		font-size: 3.0em;
+	}
+	.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .view{
+		position: absolute;
+		bottom: 10%;
+		margin-left: 120px;
+	}
+	.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .view p{
+		background-color: #000;
+		color: #fff;
+		border-radius: 20px;
+		width: 100%;
+		height: 100%;
+		padding: 5px 20px;
+	}
+}
+@media screen and (max-width: 350px){
+	.gallery1 .container .flex-parent1 .flex1 .guide{
+		font-family: Gill;
+		font-size: 1.2em;
+	}
+	.gallery1 .container .flex-parent1 .flex1 .agent{
+		font-family: Hatten;
+		font-size: 2.0em;
+	}
+	.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .view{
+		position: absolute;
+		bottom: 10%;
+		margin-left: 80px;
+	}
+	.gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .view p{
+		background-color: #000;
+		color: #fff;
+		border-radius: 20px;
+		width: 100%;
+		height: 100%;
+		padding: 5px 20px;
+	}
+}
