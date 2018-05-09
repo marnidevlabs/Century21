@@ -1,6 +1,6 @@
 	<div class="gallery1">
 		<div class="container">
-			<div class="flex-parent">
+			<div class="flex-parent1">
 				<div class="flex1">
 					<p class="guide">OUR HAND PICKED AGENTS ARE TO GUIDE & HELP YOU</p>
 				</div>
