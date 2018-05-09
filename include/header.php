@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="assets/contents/css/test.css">
   <link rel="stylesheet" href="assets/contents/css/index.css">
   <link rel="stylesheet" href="assets/contents/css/serve.css">
+  <link rel="stylesheet" href="assets/contents/css/style.css">
 
 </head>
 <body>

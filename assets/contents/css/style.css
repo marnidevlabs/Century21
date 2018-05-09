@@ -1,0 +1,122 @@
+footer{
+	color: #fff;
+	font-family: "Gill Sans MT";
+}
+footer .footer-flex {
+	display: flex;
+}
+footer .footer-flex .footer-flex-content{
+	flex: 1;
+}
+footer .footer-flex .footer-flex-content .footer-message form{
+	display: flex;
+	flex-direction: column;
+}
+footer .footer-flex .footer-flex-content .footer-message form .form-flex:first-child{
+	display: flex;
+}
+footer .footer-flex .footer-flex-content .footer-message form .form-flex:last-child{
+	text-align: right;
+}
+footer .footer-flex .footer-flex-content .footer-message form .form-flex:last-child .form-group input{
+	background-color: #eaaf40;
+	border: none;
+	padding: 6px 42px;
+}
+footer .footer-flex .footer-flex-content .footer-message form .form-flex .form-flex-inner{
+	flex: 1;
+}
+footer .footer-flex .footer-flex-content .footer-message form .form-flex .form-flex-inner:first-child{
+    margin-right: 3%;	
+}
+footer .footer-flex .footer-flex-content .footer-message form .form-flex .form-flex-inner:last-child .form-group textarea{
+	border-radius: 6px 6px 6px 6px / 18px 18px 18px 18px;
+}
+footer .footer-flex .footer-flex-content:first-child{
+    background-color: #2c2c2c;
+    margin-top: 6%;
+    padding: 3% 6%;	
+    padding-right: 3%;
+}
+footer .footer-flex .footer-flex-content:nth-child(2){
+	background-color: #29261b;
+}
+footer .footer-flex .footer-flex-content:last-child{
+    background-color: #2c2c2c;
+    margin-top: 6%;
+    padding: 5% 2%;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact{
+	margin: 45px 40px;	
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center img{
+    padding-bottom: 15px;	
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex{
+    display: flex;  
+    margin-bottom: 15px;  
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex .contact-flex-inner{
+	flex: 1;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex .contact-flex-inner h5{
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex .contact-flex-inner p{
+	margin: 0;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex .contact-flex-inner:first-child{
+    flex-basis: 30%;	
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .contact-flex .contact-flex-inner:last-child .indent{
+	text-indent: 15px;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center .fa-vimeo{
+	background-color: #e62b34;
+    padding: 6px 6px;
+    border-radius: 18px;
+    font-size: 18px;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center .fa-pinterest-p{
+	background-color: #e62b34;
+    padding: 6px 9px;
+    border-radius: 18px;
+    font-size: 18px;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center .fa-instagram{
+	background-color: #874c2d;
+    padding: 6px 8px;
+    border-radius: 18px;
+    font-size: 18px;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center .fa-facebook{
+	background-color: #6081c4;
+    padding: 6px 10px;
+    border-radius: 18px;
+    font-size: 18px;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center .fa-twitter{
+	background-color: #44bced;
+    padding: 6px 7px;
+    border-radius: 18px;
+    font-size: 18px;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center .fa-linkedin{
+	background-color: #2897cf;
+    padding: 6px 8px;
+    border-radius: 18px;
+    font-size: 18px;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center .fa-google-plus{
+	background-color: #e82a34;
+    padding: 7px 5px;
+    border-radius: 18px;
+    font-size: 15px;
+}
+footer .footer-flex .footer-flex-content:nth-child(2) .footer-contact .text-center .fa-skype{
+	background-color: #35c4f1;
+    padding: 6px 8px;
+    border-radius: 18px;
+    font-size: 16px;
+}
