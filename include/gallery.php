@@ -10,7 +10,7 @@
 				<div class="flex1">
 					<div class="sub-parent">
 						<div class="flex2" style="background-image:url('assets/contents/img/img5.png')">
-							<!-- <p class="tnega">AGENT I <br /><span class="real">Realtor</span></p> -->
+							<p class="tnega">AGENT I <br /><span class="real">Realtor</span></p>
 							<div class="flex3" style="background-image:url('assets/contents/img/img5.png')">
 								<div class="view">
 									<p>VIEW DETAILS</p>

@@ -44,7 +44,7 @@ body{
 }
 .gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2 .tnega{
 	position: absolute;
-	bottom: -90px;
+	bottom: -100px;
 	font-family: Gill;
 	font-size: 2.0em;
 	margin-left: 20%;
@@ -53,6 +53,7 @@ body{
 	clear: both;
 	font-family: Gill;
 	font-size: 0.75em;
+	margin-top: 10px;
 }
 .gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2[aria-hidden='true']{
 	visibility: hidden;
@@ -87,10 +88,10 @@ body{
 }
 .gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .des{
 	position: absolute;
-	bottom: -16%;
+	bottom: -20%;
 	background-color: white;
 	width: 105%;
-	height: 80px;
+	height: 90px;
 	left: -3%;
 }
 .gallery1 .container .flex-parent1 .flex1 .sub-parent .flex2:hover .flex3 .des h4{
