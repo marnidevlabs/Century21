@@ -22,14 +22,14 @@
 <body>
   <section class="header">
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
-          <a class="navbar-brand" href="#"><img src="assets/img/century 21 platinum logo.png" width="220px"></a>
+          <a class="navbar-brand" href="#"><img src="assets/img/century 21 platinum logo.png" width="260px"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">

@@ -7,24 +7,30 @@
 .header .navbar{
 	background-color: transparent;
 	border: none;
+	margin: 0 100px;
 }
-.header .navbar .container .collapse{
-	margin: 65px 230px;
-    margin-right: 50px;
+.header .navbar .container-fluid .collapse{
+	margin: 70px 230px;
+    margin-right: 60px;
 }
-.header .navbar .container .collapse .nav li a{
+.header .navbar .container-fluid .collapse .nav li a{
 	font-family: "Gill Sans MT";
 	color: #fff;
 	background-color: transparent;
-    font-size: 18px;
-    font-weight: bold;	
+    font-size: 20px;
+    font-weight: bold;
+}
+.header .navbar .container-fluid .collapse .nav li a:hover{
+	color: #eaaf40;
+	font-size: 22px;
+    transition: .3s;	
 }
 .que_scroll{
 	background-color: #c1bebe;
 	transition: all .3s ease-in-out;
 }
 
-.que_scroll .navbar .navbar-brand .logo img{
+.que_scroll .navbar .navbar-brand img{
 	width: 120px !important; 
 	transition: all .3s ease-in-out;
 }
@@ -38,6 +44,84 @@
 	height: 100%;
 }*/
 .banner .carousel{
+	position: relative;
+}
+.banner .carousel .carousel-indicators li{
+	background-color: #000;
+	border: none;
+}
+.banner .carousel .carousel-indicators .active{
+    background-color: #fff;
+    border: 3px solid #000;
+}
+.banner .carousel .carousel-inner .item .banner-overlay{
+	position: absolute;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+}
+.banner .container .banner-content{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+}
+.banner .container .banner-content .banner-content-flex{
+	display: flex;
+	margin: 230px 0;
+}
+.banner .container .flex-content{
+	flex: 1;
+}
+.banner .container .flex-content:first-child{
+	flex-basis: 100%;
+    margin-top: 6%;
+}
+.banner .container .flex-content .flex-text{
+	position: relative;
+}
+.banner .container .flex-content .flex-text .img-y{
+	position: relative;
+	z-index: 1;
+}
+.banner .container .flex-content .flex-text h1{
+	font-family: impact;
+	font-size: 70px;
+	color: #fff;
+	text-shadow: 2px 2px 4px #000;
+	position: relative;
+	z-index: 2;
+	margin: -22% 21% 0;
+}
+.banner .container .flex-content .flex-text .img-hands{
+	position: relative;
+	z-index: 2;
+	margin: -9% 9% 0;
+    left: 42%;
+    bottom: 6px;	
+}
+.banner .container .flex-content .text-center .btn-default{
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 0;
+	border: 2px solid #fff;
+	background-color: transparent;
+	padding: 15px 45px;
+}
+.banner .container .flex-content .text-center .btn-default:first-child{
+	margin-right: 1%;
+}
+.banner .container .flex-content .text-center .btn-default:last-child{
+	margin-left: 1%;
+}
+.banner .container .flex-content .text-center .btn-default:hover{
+	background-color: #eaaf40;
+	color: #000;
+	transition: .4s;
+}
+/*.banner .carousel{
 	position: absolute;
 }
 .banner .carousel .carousel-indicators li{
@@ -53,7 +137,7 @@
 	background-color: #000;
 	width: 100%;
 	height: 100%;
-	opacity: 0.3;
+	opacity: 0.4;
 }
 .banner .container{
 	display: flex;
@@ -63,6 +147,8 @@
 .banner .container .flex-content:first-child{
 	flex: 1;
 	flex-basis: 25%;
+}
+.banner .container .flex-content{
     margin: 280px 100px 30px;	
 }
 .banner .container .flex-content h1{
@@ -108,4 +194,4 @@
 	padding: 10px 20px;
 	width: 100%;
 	width: 100%;
-}
+}*/
