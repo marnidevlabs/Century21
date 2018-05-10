@@ -7,7 +7,8 @@ body{
 	src:url('../font-family/GILB.TTF');
 }
 #gallery{
-
+	height: 100%;
+	margin-bottom: 10%;
 }
 #gallery .container{
 
@@ -73,7 +74,7 @@ body{
 #gallery .container .flex-parent .slick-center .flex2 .con{
 	background-color:#eaaf40;
 	color: black;
-	height: 130px;
+	height: 160px;
 	padding-top: 8px;
 }
 #gallery .container .flex-parent .slick-center .flex2 .con .view{
@@ -174,7 +175,80 @@ body{
 		font-size: 1.2em;
 	}
 }
-@media screen and (max-width: 991px){
+@media screen and (max-width: 1024px){
+	#gallery .container .flex-parent .flex1 .flex2 .con{
+		background-color: black;
+		height: 100px;
+	}
+	#gallery .container .flex-parent .flex1 .flex2 .con .con1{
+		color: white;
+		font-weight: bolder;
+		font-size: 1.0em;
+		padding: 10px 10px;
+	}
+	#gallery .container .flex-parent .flex1 .flex2	.con .view{
+		background-color: #eaaf40;
+		color: black;
+		font-size: 0.9em;
+		width: 100px;
+		height:25px;
+		margin-left: 170px;
+		padding: 5px 5px;
+		margin-top: -50px;
+		font-weight: bold;
+	}
+	#gallery .container .flex-parent .flex1 .flex2	.con .view .tri{
+		width: 0;
+		height: 0;
+		margin-top: -7px;
+		margin-left:79px;
+		border-bottom: 25px solid transparent;
+		border-left: 0px solid transparent;
+		border-right: 15px solid transparent;
+		border-top: 15px solid #bd7b00;
+	}
+	.slick-center { 
+	  transform: scale(1.08);
+	}
+	.slide:not(.slick-active) { 
+	  cursor: pointer; 
+	}
+	#gallery .container .flex-parent .slick-center .flex2 .con{
+		background-color:#eaaf40;
+		font-size: 0.7em;
+		font-weight: bolder;
+		color: black;
+		height: 120px;
+		padding-top: 8px;
+	}
+	#gallery .container .flex-parent .slick-center .flex2 .con .view{
+		background-color:black;
+		font-size: 1.1em;
+		color: #eaaf40;
+		width: 100px;
+		height:30px;
+		margin-left: 170px;
+		padding: 7px 6px;
+		margin-top: -40px;
+		font-weight: bolder;
+	}
+	#gallery .container .flex-parent .slick-center .flex2	.con .view .tri{
+		width: 0;
+		height: 0;
+		margin-top: -2px;
+		margin-left:78px;
+		border-bottom: 25px solid transparent;
+		border-left: 0px solid transparent;
+		border-right: 16px solid transparent;
+		border-top: 15px solid #5a3b00;
+	}
+	#gallery .container .flex-parent .slick-center .flex2 .con .con1{
+		color: black;
+		font-weight: bolder;
+		font-size: 1.2em;
+	}
+}
+@media screen and (max-width: 992px){
 	#gallery .container .flex-parent .flex1 .flex2 .con{
 		background-color: black;
 		height: 80px;
@@ -182,7 +256,7 @@ body{
 	#gallery .container .flex-parent .flex1 .flex2 .con .con1{
 		color: white;
 		font-weight: bolder;
-		font-size: 0.8em;
+		font-size: 0.9em;
 		padding: 10px 10px;
 	}
 	#gallery .container .flex-parent .flex1 .flex2	.con .view{
@@ -191,9 +265,9 @@ body{
 		font-size: 0.7em;
 		width: 80px;
 		height:25px;
-		margin-left: 115px;
+		margin-left: 189px;
 		padding: 5px 5px;
-		margin-top: -60px;
+		margin-top: -50px;
 		font-weight: bold;
 		position: absolute;
 	}
@@ -216,31 +290,31 @@ body{
 	}
 	#gallery .container .flex-parent .slick-center .flex2 .con{
 		background-color:#eaaf40;
-		font-size: 0.6em;
+		font-size: 0.7em;
 		font-weight: bolder;
 		color: black;
-		height: 100px;
+		height: 110px;
 		padding-top: 5px;
 	}
 	#gallery .container .flex-parent .slick-center .flex2 .con .view{
 		background-color:black;
 		font-size: 1.0em;
 		color: #eaaf40;
-		width: 80px;
+		width: 100px;
 		height:30px;
-		margin-left: 120px;
-		padding:10px 6px;
-		margin-top: -60px;
+		margin-left: 170px;
+		padding:10px 10px;
+		margin-top: -45px;
 		font-weight: bolder;
 	}
 	#gallery .container .flex-parent .slick-center .flex2	.con .view .tri{
 		width: 0;
 		height: 0;
-		margin-top: -1px;
-		margin-left:54px;
+		margin-top: -3px;
+		margin-left:74px;
 		border-bottom: 25px solid transparent;
 		border-left: 0px solid transparent;
-		border-right: 20px solid transparent;
+		border-right: 16px solid transparent;
 		border-top: 15px solid #5a3b00;
 	}
 	#gallery .container .flex-parent .slick-center .flex2 .con .con1{
@@ -250,37 +324,40 @@ body{
 	}
 }
 @media screen and (max-width: 760px){
+	#gallery .container .flex-parent .flex1 .flex2{
+		margin: 50px 50px 0 50px;
+	}
 	#gallery .container .flex-parent .flex1 .flex2 .con{
 		background-color: black;
-		height: 80px;
+		height: 100px;
 	}
 	#gallery .container .flex-parent .flex1 .flex2 .con .con1{
 		color: white;
 		font-weight: bolder;
-		font-size: 0.8em;
+		font-size: 1.2em;
 		padding: 10px 10px;
 	}
 	#gallery .container .flex-parent .flex1 .flex2	.con .view{
 		background-color: #eaaf40;
 		color: black;
-		font-size: 0.7em;
-		width: 80px;
-		height:25px;
-		margin-left: 120px;
-		padding: 5px 5px;
-		margin-top: -60px;
-		font-weight: bold;
+		font-size: 1.0em;
+		width: 140px;
+		height:30px;
+		margin-left: 415px;
+		padding:6px 17px;
+		margin-top: -65px;
+		font-weight: bolder;
 		position: absolute;
 	}
 	#gallery .container .flex-parent .flex1 .flex2	.con .view .tri{
 		width: 0;
 		height: 0;
-		margin-top: -3px;
-		margin-left:59px;
+		margin-top: -7px;
+		margin-left:101px;
 		border-bottom: 25px solid transparent;
 		border-left: 0px solid transparent;
-		border-right: 16px solid transparent;
-		border-top: 15px solid #bd7b00;
+		border-right: 22px solid transparent;
+		border-top: 23px solid #bd7b00;
 		position: absolute;
 	}
 	#gallery .container .flex-parent .slick-center .flex2 .con{
@@ -288,34 +365,34 @@ body{
 		font-size: 0.6em;
 		font-weight: bolder;
 		color: black;
-		height: 100px;
+		height: 140px;
 		padding-top: 5px;
 	}
 	#gallery .container .flex-parent .slick-center .flex2 .con .view{
 		background-color:black;
-		font-size: 1.0em;
+		font-size: 1.5em;
 		color: #eaaf40;
-		width: 80px;
+		width: 140px;
 		height:30px;
-		margin-left: 124px;
-		padding:10px 6px;
+		margin-left: 415px;
+		padding:8px 17px;
 		margin-top: -60px;
 		font-weight: bolder;
 	}
 	#gallery .container .flex-parent .slick-center .flex2	.con .view .tri{
 		width: 0;
 		height: 0;
-		margin-top: -1px;
-		margin-left:54px;
+		margin-top: -5px;
+		margin-left:101px;
 		border-bottom: 25px solid transparent;
 		border-left: 0px solid transparent;
-		border-right: 20px solid transparent;
-		border-top: 15px solid #5a3b00;
+		border-right: 22px solid transparent;
+		border-top: 25px solid #5a3b00;
 	}
 	#gallery .container .flex-parent .slick-center .flex2 .con .con1{
 		color: black;
 		font-weight: bolder;
-		font-size: 1.2em;
+		font-size: 2.0em;
 	}
 @media screen and (max-width: 450px){
 	#gallery .container .text-center .care{
@@ -323,6 +400,9 @@ body{
 	}
 	#gallery .container .text-center .most{
 		font-size: 1.5em;
+	}
+	#gallery .container .flex-parent .flex1 .flex2{
+		margin: 50px 30px 0 30px;
 	}
 	#gallery .container .flex-parent .flex1 .flex2 .con{
 		background-color: black;
@@ -340,7 +420,7 @@ body{
 		font-size: 0.8em;
 		width: 98px;
 		height:30px;
-		margin-left: 200px;
+		margin-left: 183px;
 		padding:7px 8px;
 		margin-top: -45px;
 		font-weight: bolder;
@@ -361,7 +441,7 @@ body{
 		font-size: 0.75em;
 		font-weight: bolder;
 		color: black;
-		height: 100px;
+		height: 110px;
 		padding-top: 5px;
 	}
 	#gallery .container .flex-parent .slick-center .flex2 .con .view{
@@ -370,7 +450,7 @@ body{
 		color: #eaaf40;
 		width: 98px;
 		height:30px;
-		margin-left: 200px;
+		margin-left: 182px;
 		padding:7px 6px;
 		margin-top: -45px;
 		font-weight: bolder;
@@ -393,13 +473,13 @@ body{
 }
 @media screen and (max-width: 320px){
 	#gallery .container .text-center .care{
-		font-size: 1.2em;
+		font-size: 1.0em;
 	}
 	#gallery .container .text-center .most{
-		font-size: 1.5em;
+		font-size: 1.25em;
 	}
 	#gallery .container .flex-parent .flex1 .flex2{
-		margin: 50px 30px 0 320px0px;
+		margin: 50px 20px 0 20px;
 	}
 	#gallery .container .flex-parent .flex1 .flex2 img{
 		width: 100%;
@@ -420,7 +500,7 @@ body{
 		font-size: 0.55em;
 		width: 60px;
 		height:20px;
-		margin-left: 105px;
+		margin-left: 108px;
 		padding:6px 2px;
 		margin-top: -50px;
 		font-weight: bolder;
@@ -441,7 +521,7 @@ body{
 		font-size: 0.75em;
 		font-weight: bolder;
 		color: black;
-		height: 100px;
+		height: 120px;
 		padding-top: 5px;
 	}
 	#gallery .container .flex-parent .slick-center .flex2 .con .view{
@@ -450,7 +530,7 @@ body{
 		color: #eaaf40;
 		width: 75px;
 		height:25px;
-		margin-left: 90px;
+		margin-left: 93px;
 		padding:7px 6px;
 		margin-top: -30px;
 		font-weight: bolder;
