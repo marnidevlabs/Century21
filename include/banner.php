@@ -42,7 +42,7 @@
 	</div>
 	<div class="container">
 		<div class="banner-content">
-			<div class="col-md-9">
+			<div class="col-md-8">
 				<div class="content-text">
 					<img src="assets/img/Yeah.png" width="30%">
 					<h1>our'e in good</h1>
@@ -53,54 +53,46 @@
 					<a href="#" class="btn btn-default">CONTACT</a>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-4">
 				<form>
 					<h4>Property Search</h4>
 					<div class="form-group">
 					  	<select class="form-control">
-					  		<option></option>
-					    	<option>1</option>
-					    	<option>2</option>
-					    	<option>3</option>
-					    	<option>4</option>
+					  		<option>Property Location</option>
 					  	</select>
 					</div>
 					<div class="form-group">
 					  	<select class="form-control">
-					  		<option></option>
-					    	<option>1</option>
-					    	<option>2</option>
-					    	<option>3</option>
-					    	<option>4</option>
+					  		<option>Property Type</option>
 					  	</select>
 					</div>
 					<div class="form-group">
 					  	<select class="form-control">
-					  		<option></option>
-					    	<option>1</option>
-					    	<option>2</option>
-					    	<option>3</option>
-					    	<option>4</option>
+					  		<option>Property Feature</option>
 					  	</select>
 					</div>
 					<div class="form-group">
 					  	<select class="form-control">
-					  		<option></option>
-					    	<option>1</option>
-					    	<option>2</option>
-					    	<option>3</option>
-					    	<option>4</option>
+					  		<option>Price Range</option>
 					  	</select>
 					</div><div class="form-group">
 					  	<select class="form-control">
-					  		<option></option>
-					    	<option>1</option>
-					    	<option>2</option>
-					    	<option>3</option>
-					    	<option>4</option>
+					  		<option>Area</option>
 					  	</select>
 					</div>
 				</form>
+				<div class="result text-center">
+				  	<div class="up-arrow"></div>
+					<div class="result-inner">
+						<p>MATCHING RESULTS</p>
+						<hr>
+						<h2>1,999</h2>
+						<div class="view">
+							<h5><span class="fa fa-play-circle"></span> VIEW RESULTS</h5>
+						</div>
+						<div class="triangle"></div>
+					</div>
+				</div>
 			</div>
 		</div>
   	</div>
