@@ -10,20 +10,15 @@
 	margin: 0 100px;
 }
 .header .navbar .container-fluid .collapse{
-	margin: 70px 230px;
-    margin-right: 60px;
+	margin: 65px 230px;
+    margin-right: 30px;
 }
 .header .navbar .container-fluid .collapse .nav li a{
 	font-family: "Gill Sans MT";
 	color: #fff;
 	background-color: transparent;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-}
-.header .navbar .container-fluid .collapse .nav li a:hover{
-	color: #eaaf40;
-	font-size: 22px;
-    transition: .3s;	
 }
 .que_scroll{
 	background-color: #c1bebe;
@@ -62,11 +57,72 @@
 	opacity: 0.4;
 }
 .banner .container .banner-content{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	z-index: 1;
+    margin: 14% 8% 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    right: 0;
 }
+.banner .container .col-md-9 .content-text{
+	margin-top: 5%;
+}
+.banner .container .col-md-9 .content-text h1{
+	font-family: impact;
+	font-size: 70px;
+	color: #fff;
+	text-shadow: 2px 2px 4px #000;
+	position: relative;
+	z-index: 2;
+	margin: -17% 17% 0;
+}
+.banner .container .col-md-9 .content-text img:last-child{
+    position: relative;
+    z-index: 2;
+    margin: -7% 0 0;
+    left: 375px;
+}
+.banner .container .col-md-9 .link-button{
+    margin-right: 16%;
+    margin-left: 16%;
+}
+.banner .container .col-md-9 .link-button .btn-default{
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 0;
+	border: 2px solid #fff;
+	background-color: transparent;
+	padding: 15px 45px;
+}
+.banner .container .col-md-9 .link-button .btn-default:first-child{
+	margin-right: 5px;
+}
+.banner .container .col-md-9 .link-button .btn-default:last-child{
+	margin-left: 5px;
+}
+.banner .container .col-md-9 .link-button .btn-default:hover{
+	background-color: #eaaf40;
+	color: #000;
+	transition: .4s;
+}
+.banner .container .col-md-3 form{
+	background-color: #fff;
+	opacity: 0.8;
+	padding: 10px 30px;
+	width: 100%;
+	border-radius: 6px;
+}
+.banner .container .col-md-3 form .form-group select{
+	border: 0;
+	background: url('assets/img/2000px-Sort_both.svg.png') no-repeat center right !important;
+	-webkit-appearance: none;
+}
+.banner .container .col-md-3 form h4{
+    color: #000;
+    font-weight: bold;
+}
+/*
 .banner .container .banner-content .banner-content-flex{
 	display: flex;
 	margin: 230px 0;
@@ -76,12 +132,12 @@
 }
 .banner .container .flex-content:first-child{
 	flex-basis: 100%;
-    margin-top: 6%;
+    margin-top: 3%;
 }
 .banner .container .flex-content .flex-text{
 	position: relative;
 }
-.banner .container .flex-content .flex-text .img-y{
+.banner .container .flex-content .flex-text img:first-child{
 	position: relative;
 	z-index: 1;
 }
@@ -92,13 +148,13 @@
 	text-shadow: 2px 2px 4px #000;
 	position: relative;
 	z-index: 2;
-	margin: -22% 21% 0;
+	margin: -17% 15% 0;
 }
-.banner .container .flex-content .flex-text .img-hands{
+.banner .container .flex-content .flex-text img:last-child{
 	position: relative;
 	z-index: 2;
-	margin: -9% 9% 0;
-    left: 42%;
+	margin: -9% 5% 0;
+    left: 40%;
     bottom: 6px;	
 }
 .banner .container .flex-content .text-center .btn-default{
@@ -120,7 +176,7 @@
 	background-color: #eaaf40;
 	color: #000;
 	transition: .4s;
-}
+}*/
 /*.banner .carousel{
 	position: absolute;
 }

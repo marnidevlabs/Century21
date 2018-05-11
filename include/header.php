@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="icon" href="assets/img/Century 21 Platinum Properties Logo.png">
   <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick/slick.css">
   <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="assets/plugins/font-awesome/css/font-awesome.min.css">
@@ -29,7 +30,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
-          <a class="navbar-brand" href="#"><img src="assets/img/century 21 platinum logo.png" width="260px"></a>
+          <a class="navbar-brand" href="#"><img src="assets/img/century 21 platinum logo.png" width="230px"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">

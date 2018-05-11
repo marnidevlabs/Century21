@@ -42,67 +42,65 @@
 	</div>
 	<div class="container">
 		<div class="banner-content">
-			<div class="banner-content-flex">
-				<div class="flex-content">
-					<div class="flex-text">
-						<div class="img-y"><img src="assets/img/Yeah.png" width="40%"></div>
-						<h1>our'e in good</h1>
-						<div class="img-hands"><img src="assets/img/hands.png" width="60%"></div>
-					</div>
-					<div class="text-center">
-						<a href="#" class="btn btn-default">VIEW LISTINGS</a>
-						<a href="#" class="btn btn-default">CONTACT</a>
-					</div>
+			<div class="col-md-9">
+				<div class="content-text">
+					<img src="assets/img/Yeah.png" width="30%">
+					<h1>our'e in good</h1>
+					<img src="assets/img/hands.png" width="30%">
 				</div>
-				<div class="flex-content">
-					<form>
-						<h4>Property Search</h4>
-						<div class="form-group">
-						  	<select class="form-control">
-						  		<option></option>
-						    	<option>1</option>
-						    	<option>2</option>
-						    	<option>3</option>
-						    	<option>4</option>
-						  	</select>
-						</div>
-						<div class="form-group">
-						  	<select class="form-control">
-						  		<option></option>
-						    	<option>1</option>
-						    	<option>2</option>
-						    	<option>3</option>
-						    	<option>4</option>
-						  	</select>
-						</div>
-						<div class="form-group">
-						  	<select class="form-control">
-						  		<option></option>
-						    	<option>1</option>
-						    	<option>2</option>
-						    	<option>3</option>
-						    	<option>4</option>
-						  	</select>
-						</div>
-						<div class="form-group">
-						  	<select class="form-control">
-						  		<option></option>
-						    	<option>1</option>
-						    	<option>2</option>
-						    	<option>3</option>
-						    	<option>4</option>
-						  	</select>
-						</div><div class="form-group">
-						  	<select class="form-control">
-						  		<option></option>
-						    	<option>1</option>
-						    	<option>2</option>
-						    	<option>3</option>
-						    	<option>4</option>
-						  	</select>
-						</div>
-					</form>
+				<div class="link-button">
+					<a href="#" class="btn btn-default">VIEW LISTINGS</a>
+					<a href="#" class="btn btn-default">CONTACT</a>
 				</div>
+			</div>
+			<div class="col-md-3">
+				<form>
+					<h4>Property Search</h4>
+					<div class="form-group">
+					  	<select class="form-control">
+					  		<option></option>
+					    	<option>1</option>
+					    	<option>2</option>
+					    	<option>3</option>
+					    	<option>4</option>
+					  	</select>
+					</div>
+					<div class="form-group">
+					  	<select class="form-control">
+					  		<option></option>
+					    	<option>1</option>
+					    	<option>2</option>
+					    	<option>3</option>
+					    	<option>4</option>
+					  	</select>
+					</div>
+					<div class="form-group">
+					  	<select class="form-control">
+					  		<option></option>
+					    	<option>1</option>
+					    	<option>2</option>
+					    	<option>3</option>
+					    	<option>4</option>
+					  	</select>
+					</div>
+					<div class="form-group">
+					  	<select class="form-control">
+					  		<option></option>
+					    	<option>1</option>
+					    	<option>2</option>
+					    	<option>3</option>
+					    	<option>4</option>
+					  	</select>
+					</div><div class="form-group">
+					  	<select class="form-control">
+					  		<option></option>
+					    	<option>1</option>
+					    	<option>2</option>
+					    	<option>3</option>
+					    	<option>4</option>
+					  	</select>
+					</div>
+				</form>
 			</div>
 		</div>
   	</div>
