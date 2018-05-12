@@ -42,7 +42,7 @@
 	</div>
 	<div class="container">
 		<div class="banner-content">
-			<div class="col-md-8">
+			<div class="col-lg-8 col-md-6 col-sm-6">
 				<div class="content-text">
 					<img src="assets/img/Yeah.png" width="30%">
 					<h1>our'e in good</h1>
@@ -53,7 +53,7 @@
 					<a href="#" class="btn btn-default">CONTACT</a>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4 col-md-6 col-sm-6">
 				<form>
 					<h4>Property Search</h4>
 					<div class="form-group">
