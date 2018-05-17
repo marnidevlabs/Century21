@@ -11,8 +11,10 @@
 						<div class="con">
 							<p class="con1">123 MAIN STREET, EDMONTON,AB<br/>6524, Philippines<br/>100 sq ft.</p>
 							<div class="view">
-								<p>VIEW DETAILS</p>
-								<div class="tri"></div>
+								<a href="">VIEW DETAILS</a>
+								<div class="tri">
+									<div class="tri1"></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -23,8 +25,10 @@
 						<div class="con">
 							<p class="con1">123 MAIN STREET, EDMONTON,AB<br/>6524, Philippines<br/>50 sq ft.</p>
 							<div class="view">
-								<p>VIEW DETAILS</p>
-								<div class="tri"></div>
+								<a href="">VIEW DETAILS</a>
+								<div class="tri">
+									<div class="tri1"></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -35,8 +39,10 @@
 						<div class="con">
 							<p class="con1">123 MAIN STREET, EDMONTON,AB<br/>6524, Philippines<br/>50 sq ft.</p>
 							<div class="view">
-								<p>VIEW DETAILS</p>
-								<div class="tri"></div>
+								<a href="">VIEW DETAILS</a>
+								<div class="tri">
+									<div class="tri1"></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -47,8 +53,10 @@
 						<div class="con">
 							<p class="con1">123 MAIN STREET, EDMONTON,AB<br/>6524, Philippines<br/>100 sq ft.</p>
 							<div class="view">
-								<p>VIEW DETAILS</p>
-								<div class="tri"></div>
+								<a href="">VIEW DETAILS</a>
+								<div class="tri">
+									<div class="tri1"></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -59,8 +67,10 @@
 						<div class="con">
 							<p class="con1">123 MAIN STREET, EDMONTON,AB<br/>6524, Philippines<br/>50 sq ft.</p>
 							<div class="view">
-								<p>VIEW DETAILS</p>
-								<div class="tri"></div>
+								<a href="">VIEW DETAILS</a>
+								<div class="tri">
+									<div class="tri1"></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -71,8 +81,10 @@
 						<div class="con">
 							<p class="con1">123 MAIN STREET, EDMONTON,AB<br/>6524, Philippines<br/>50 sq ft.</p>
 							<div class="view">
-								<p>VIEW DETAILS</p>
-								<div class="tri"></div>
+								<a href="">VIEW DETAILS</a>
+								<div class="tri">
+									<div class="tri1"></div>
+								</div>
 							</div>
 						</div>
 					</div>

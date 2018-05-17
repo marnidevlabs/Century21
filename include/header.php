@@ -21,9 +21,32 @@
 
 </head>
 <body>
-  <section class="header">
+  <header class="navigation">
+      <div class="contents">
+        <div class="navi-logo">
+          <button class="navi-button">
+            <span class="navi-icon"></span>
+            <span class="navi-icon"></span>
+            <span class="navi-icon"></span>
+          </button>
+          <a href="" class="nav-icon"><img src="assets/img/century 21 platinum logo.png"></a>
+        </div>
+        <div class="navi-links">
+            <div class="navi-links-content">
+              <ul class="navi-nav">
+              <li class="active"><a href="#">CAREERS</a></li>
+              <li><a href="#">INVESTING/BUYING</a></li>
+              <li><a href="#">LISTING & SEARCHES</a></li>
+              <li><a href="#">SELLING</a></li>
+              <li><a href="#">RENTALS</a></li>
+            </ul>
+            </div>
+        </div>
+      </div>
+  </header>
+  <!-- <section class="header">
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
@@ -43,4 +66,4 @@
         </div>
       </div>
     </nav>
-  </section>
+  </section> -->
