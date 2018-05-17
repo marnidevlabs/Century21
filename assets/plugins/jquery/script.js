@@ -1,7 +1,7 @@
 $(window).scroll(function(){
-	if ($('.header').offset().top > 104) {
-		$('.header').addClass("que_scroll");
+	if ($('.navigation').offset().top > 150) {
+		$('.navigation').addClass("que-scroll");
 	}else{
-		$('.header').removeClass("que_scroll");
+		$('.navigation').removeClass("que-scroll");
 	}
 })

@@ -77,6 +77,7 @@
   <script src="assets/plugins/js/bootstrap.min.js"></script>
   <script src="assets/plugins/slick/slick/slick.min.js"></script>
   <script src="assets/plugins/slick/slick/slick.js"></script>
+  <script src="assets/plugins/jquery/script.js"></script>
 
   <script type="text/javascript">
   $('.one-time').slick({
@@ -114,9 +115,9 @@
           breakpoint: 768,
           settings: {
             arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 1
+            centerMode: false,
+            // centerPadding: '40px',
+            slidesToShow: 2
           }
         },
         {

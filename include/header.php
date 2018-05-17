@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="icon" href="assets/img/Century 21 Platinum Properties Logo.png">
   <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick/slick.css">
   <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="assets/plugins/font-awesome/css/font-awesome.min.css">
@@ -20,7 +21,30 @@
 
 </head>
 <body>
-  <section class="header">
+  <header class="navigation">
+      <div class="contents">
+        <div class="navi-logo">
+          <button class="navi-button">
+            <span class="navi-icon"></span>
+            <span class="navi-icon"></span>
+            <span class="navi-icon"></span>
+          </button>
+          <a href="" class="nav-icon"><img src="assets/img/century 21 platinum logo.png"></a>
+        </div>
+        <div class="navi-links">
+            <div class="navi-links-content">
+              <ul class="navi-nav">
+              <li class="active"><a href="#">CAREERS</a></li>
+              <li><a href="#">INVESTING/BUYING</a></li>
+              <li><a href="#">LISTING & SEARCHES</a></li>
+              <li><a href="#">SELLING</a></li>
+              <li><a href="#">RENTALS</a></li>
+            </ul>
+            </div>
+        </div>
+      </div>
+  </header>
+  <!-- <section class="header">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -29,7 +53,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
-          <a class="navbar-brand" href="#"><img src="assets/img/century 21 platinum logo.png" width="220px"></a>
+          <a class="navbar-brand" href="#"><img src="assets/img/century 21 platinum logo.png" width="230px"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
@@ -42,4 +66,4 @@
         </div>
       </div>
     </nav>
-  </section>
+  </section> -->
